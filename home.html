@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zerodha</title>
-    <link rel="stylesheet" href="build.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-inter text-gray-700">
     
@@ -12,7 +12,7 @@
 
         <a href="home.html"><img src="img/logo.svg" alt="logo" class="h-5" srcset=""></a>
 
-        <div class="space-x-6">
+        <div class="hidden sm:flex space-x-2 md:space-x-4 lg:space-x-6">
             <a href="https://signup.zerodha.com/" class="hover:text-blue-600">Signup</a>
             <a href="https://zerodha.com/about/"   class="hover:text-blue-600">About</a>
             <a href="https://zerodha.com/products/" class="hover:text-blue-600">Products</a>
@@ -22,11 +22,10 @@
     </nav>
 
     <div id="1" class="flex flex-col items-center py-10">
-        <img src="img/landing.png"  class="h-96" alt="" srcset="">
+        <img src="img/landing.png"  class="h-96 object-contain" alt="" srcset="">
         <h1 class="text-4xl p-4 font-semibold">Invest in everything</h1>
         <p class="p-1 text-lg">Online platform to invest in stocks, derivatives, mutual funds, and more</p>
         <button class="mt-6 border-blue-500 text-xl border bg-blue-600 px-5 py-1.5 text-white rounded hover:bg-gray-800"><a href="https://signup.zerodha.com/">Sign up now</a></button>
     </div>
 </body>
 </html>
-
